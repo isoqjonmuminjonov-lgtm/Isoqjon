@@ -4,7 +4,7 @@ var harf = prompt("xoxlagan harfingizni kiriting").trim()
 var isoq = 0;
 
 for (var i = 0; i < matn.length; i++) { 
-    if (matn[i].toLowerCase() == harf.toLowerCase()) {
+    if (matn[i] == harf.toLowerCase()) {
         isoq++;
     }
 }
